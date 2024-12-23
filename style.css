@@ -1,4 +1,4 @@
-.header, .under-header{
+.header, .under-header, .footer{
     background-color: #1f2937;
     display: flex;
 }
@@ -51,10 +51,18 @@ a {
     color: #E5E7EB;
     background-color: #1f2937;
     margin-top: 0px;
+    margin-bottom: 20px;;
 }
  img {
     width: 565px;
-    height: 400px
+    height: 250px
+ }
+ #small-img {
+    width: 150px;
+    height: 200px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
  }
 
  button {
@@ -64,4 +72,67 @@ a {
     border-radius: 8px;
     padding: 4px;
     border: none;
+ }
+
+ #info {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+ }
+ .illustration {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+ .illustration-images {
+    width: 150px;
+ }
+
+ .quote {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    padding: 90px;
+ }
+ .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+ }
+ #thor {
+    text-align: right;
+ }
+ .call-action {
+    display:flex;
+    justify-content: center;
+    padding: 85px;
+ }
+ .action{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    width: 600px;
+    border-radius: 12px;
+ }
+ #action{
+    font-size: 25px;
+    color: #E5E7EB;
+    font-weight: bold;
+ }
+ #small-action {
+    color: #E5E7EB;
+ }
+ #action-sign {
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    border-style: solid;
+ }
+ .footer {
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    color: #F9FAF8;
  }
